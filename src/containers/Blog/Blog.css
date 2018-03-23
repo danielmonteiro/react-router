@@ -1,0 +1,30 @@
+.Nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.Nav ul li {
+    margin: 20px;
+    display: inline-block;
+}
+
+.Nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+.Nav ul li a.active {
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    padding: 8px;
+}
+.Nav ul li a:hover {
+    text-decoration: underline;
+    color: orange;
+}
+.Nav ul li a.active:hover {
+    text-decoration: none;
+}
